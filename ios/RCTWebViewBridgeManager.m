@@ -10,12 +10,12 @@
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 
-#import "RCTWebViewBridgeManager.h"
+ #import "RCTWebViewBridgeManager.h"
 
-#import "RCTBridge.h"
-#import "RCTUIManager.h"
-#import "RCTWebViewBridge.h"
-#import "UIView+React.h"
+ #import <React/RCTBridge.h>
+ #import <React/RCTUIManager.h>
+ #import "RCTWebViewBridge.h"
+ #import <React/UIView+React.h>
 
 @interface RCTWebViewBridgeManager () <RCTWebViewBridgeDelegate>
 
